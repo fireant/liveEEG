@@ -100,7 +100,7 @@ void main(int argc, _TCHAR* argv[])
 		GT_GetFilterSpec(flt);
 
 		for (int i=0; i< nof; i++) {
-			cout<<i<<":"<<flt[i].fu<<":"<<flt[i].fo<<endl;
+			cout<<i<<":"<<flt[i].fu<<":"<<flt[i].fo<<":"<<flt[i].fs<<":"<<flt[i].type<<endl;
 		}
 	
 		//GT_GetNumberOfSupportedSampleRates(_hDevice, &nossr);
