@@ -231,4 +231,9 @@ void Fft<T>::GetPhase(std::vector<std::vector<T> >& pha,
   }
 }
 
+//double GetFrqOfBin(size_t i) {
+//  const size_t nc = buffer[0].capacity()/2+1;
+//  float por = float(i)/float(nc-1);
+//}
+
 #endif // FFT_H
